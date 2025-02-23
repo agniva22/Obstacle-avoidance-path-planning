@@ -279,6 +279,9 @@ def main():
 
                 xx = result[0]
                 yy = result[1]
+                x = int(xx[0])
+                y = int(yy[0])
+                
                 state = [x, y, vx, vy, phi, phidot, xb, yb, vbx, vby, xb1, yb1, vbx1, vby1, phib, phibdot]
                 state = np.array(state)
                 done = 0
